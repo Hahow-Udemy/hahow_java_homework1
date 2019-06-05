@@ -11,5 +11,6 @@ public class Tester {
         int Round_trip = sc.nextInt();
 
         Ticket ticket = new Ticket(Total_tickets,Round_trip);
+        ticket.print();
     }
 }

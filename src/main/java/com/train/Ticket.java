@@ -13,4 +13,13 @@ public class Ticket {
         System.out.println("Total: "+ Total);
     }
 
+    public void print(){
+
+        Total = Round_trip * 1800 + (Total_tickets - Round_trip) * 1000 ;
+        System.out.println("Total tickets:" + Total_tickets);
+        System.out.println("Round-trip:" + Round_trip);
+        System.out.println("Total: "+ Total);
+
+    }
+
 }
